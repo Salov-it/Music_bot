@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Accord" Version="3.8.0" />
+    <PackageReference Include="Telegram.Bot" Version="16.0.2" />
+    <PackageReference Include="VkNet.AudioBypassService" Version="1.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="xNet">
+      <HintPath>..\..\..\..\Documents\music_mp3_bot\vkbot96\vkbot96\bin\Debug\xNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
